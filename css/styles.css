@@ -1,0 +1,200 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.logo {
+    margin-top: 34px;
+    margin-bottom: 60px;
+}
+
+.main-page {
+    background: linear-gradient(90deg, #FCFEFF 0%, #A5DEFF 100%);
+}
+
+.main-page-text-container {
+    background: #FFFFFF;
+    border-radius: 40px;
+    padding: 60px;
+}
+
+.main-page-button, .form-btm {
+    background: #FF6B0A;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.main-page-description {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-bottom: 16px;
+}
+
+.main-page-text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FF6B0A;
+    margin-bottom: 48px;
+}
+
+.main-page-title{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: #1B1D1F;
+    margin-bottom: 24px;
+}
+
+.main-page-description-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-bottom: 32px;
+}
+
+.gus-facts {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.gus-facts-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1B1D1F;
+    width: 864px;
+    margin: auto;
+    margin-bottom: 24px;
+}
+
+.gus-facts-title {
+    font-weight: 600;
+    font-size: 48px;
+    color: #1B1D1F;
+    margin-bottom: 16px;
+}
+
+.gus-facts-tryzub {
+    margin-bottom: 16px;
+}
+
+.gus-fact {
+    width: 374px;
+}
+
+.gus-fact-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.gus-fact-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+}
+
+.form-section {
+    background: linear-gradient(90deg, #FCFEFF 0%, #A5DEFF 100%);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.form-container {
+    background: #FFFFFF;
+    border-radius: 40px;
+    padding: 60px 40px;
+    margin: auto;
+    width: 578px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.form-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-bottom: 12px;
+    margin-top: 32px;
+}
+
+.form-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-bottom: 24px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 24px;
+}
+
+.form-field-email {
+    margin-bottom: 48px;
+}
+
+.form-field-label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-bottom: 8px;
+}
+
+.form-field-input {
+    background: #FFFFFF;
+    border: 1px solid #005BBB;
+    border-radius: 8px;
+    width: 453px;
+    height: 60px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
